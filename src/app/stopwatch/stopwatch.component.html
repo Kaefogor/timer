@@ -1,0 +1,8 @@
+<div class='timer'><span class="time"> {{ stopWatchService.counter | date:'HH:mm:ss'}}</span></div>
+
+<div class = "buttons">
+  <button  class='button' (click)="startORStop()">Start/Stop</button>
+  <button  class='button' id="wait" (click)="wait()">Wait</button>
+  <button  class='button' (click)="reset()">Reset</button>
+</div>
+
